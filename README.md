@@ -16,7 +16,10 @@ Vamos mostrar uma análise descritiva em cima do conjunto de dados de e-commerce
     -	Alto desempenho de leitura e gravação. Quando possível, as operações de difusão devem estar vinculadas ao desempenho do disco local.
 
 Links:
+
 https://www.kaggle.com/olistbr/brazilian-ecommerce
+
 https://rstudio.github.io/reticulate/index.html
+
 https://blog.rstudio.com/2016/03/29/feather/
 
