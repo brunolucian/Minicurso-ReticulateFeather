@@ -20,7 +20,7 @@ output:
     - Exportação das informações do modelo para utilizar o R (`feather`).
     
 - No R:
-    - Visualização dos resultados (mapa de clientes).
+    - Visualização dos resultados e mapa de clientes.
 
 - Rmarkdown para produzir relatório (`reticulate`)
   
