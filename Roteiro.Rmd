@@ -16,7 +16,7 @@ output:
 
 - No python:
     - Importação das bases modificadas (`feather`).
-    - Criação de modelo (recomendação, elasticidade, classificação do score) e previsão.
+    - Criação de modelo de basket.
     - Exportação das informações do modelo para utilizar o R (`feather`).
     
 - No R:
