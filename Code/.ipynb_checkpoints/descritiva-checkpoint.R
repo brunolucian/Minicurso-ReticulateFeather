@@ -5,10 +5,8 @@ require(dplyr)
 
 #### Clientes ####
 glimpse(customers)
-
 customers %>% 
   count(customer_id, sort = T)
-
 customers %>% 
   count(customer_unique_id, sort = T) %>% 
   filter(n > 1)
