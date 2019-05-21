@@ -1,6 +1,6 @@
 ---
 title: "Reticulate no rmarkdown"
-output:html_document
+output: html_document
 ---
 
 O pacote `reticulate` permite a interoperabilidade entre as linguagens Python e R. Ao usar esse pacote é possível utilizar Python do R, traduzir tipos de objetos entre as linguagens, entre outras coisas. Vamos mostrar 4 possibilidades de uso do pacote:
@@ -16,6 +16,7 @@ Rmarkdown é a junção de R com a linguagem de marcação markdown, que possibi
 
 ```{r}
 require(reticulate)
+use_python("/opt/anaconda3/bin/python3")
 ```
 
 ```{python}
@@ -26,7 +27,6 @@ tab_starwars = pandas.read_csv("Dados/starwars.csv")
 ```{r}
 require(ggplot2)
 
-ggplot(py$tab_starwars, aes(x = height, y = mass, col = species) +
+ggplot(py$tab_starwars, aes(x = height, y = mass, col = species)) +
          geom_point()
 ```
-
